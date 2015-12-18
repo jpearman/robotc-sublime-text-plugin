@@ -1,0 +1,16 @@
+<snippet>
+	<description>main()</description>
+    <content><![CDATA[
+// RobotC simple template
+task main()
+{
+	while(1)
+		{
+		// Place control code here
+		
+		wait1Msec(25);
+		}
+}]]></content>
+    <tabTrigger>main</tabTrigger>
+    <scope>source.robotc</scope> 
+</snippet>
