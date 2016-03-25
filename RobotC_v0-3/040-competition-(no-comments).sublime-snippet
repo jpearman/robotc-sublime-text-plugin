@@ -1,0 +1,28 @@
+<snippet>
+	<description>competition_template_no_comments</description>
+    <content><![CDATA[
+#pragma platform(VEX2)
+
+#pragma competitionControl(Competition)
+
+#include "Vex_Competition_Includes.c"
+
+void pre_auton()
+{
+  bStopTasksBetweenModes = true;
+}
+
+task autonomous()
+{
+  AutonomousCodePlaceholderForTesting();  
+}
+
+task usercontrol()
+{
+  while (true)
+  {
+  }
+}]]></content>
+    <tabTrigger>competition</tabTrigger>
+    <scope>source.robotc</scope> 
+</snippet>
